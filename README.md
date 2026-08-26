@@ -24,8 +24,6 @@ scripts/   equilibrium solvers and figure generation
 |---|---|
 | `paper/engine.tex` | Manuscript (AASTeX, `preprint2`) |
 | `paper/engineNotes.bib` | Bibliography |
-| `paper/enginediff.tex` | Marked-up comparison against the original 2018 draft |
-| `engine-diff-annotated.pdf` | That comparison, rendered — additions underlined in green, deletions struck through in red |
 | `CHANGES.md` | What changed relative to the original draft, and why |
 | `REFERENCES_AUDIT.md` | Provenance and verification status of every bibliography entry |
 
@@ -36,8 +34,7 @@ cd paper
 pdflatex engine && bibtex engine && pdflatex engine && pdflatex engine
 ```
 
-The comparison document builds the same way from `enginediff.tex`. It additionally needs
-`ulem` and `soul`, which live in TeX Live's `texlive-plain-generic`.
+It additionally needs `ulem` and `soul`, which live in TeX Live's `texlive-plain-generic`.
 
 ## The code
 
@@ -95,5 +92,4 @@ of the disk.
 ## A note on preparation
 
 The 2026 revision was prepared with assistance from Anthropic's Claude models. All references
-and edits were hand-checked by the authors. `REFERENCES_AUDIT.md` records how each bibliography
-entry was checked, including the entries that had to be corrected or removed.
+and edits were hand-checked by the authors.
