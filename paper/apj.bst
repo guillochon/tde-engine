@@ -642,7 +642,7 @@ FUNCTION {output.bibitem}
 FUNCTION {format.doi}
 { doi empty$
     { "" }
-    { "doi:" doi * }
+    { "\href{https://doi.org/" doi * "}{doi:" * doi * "}" * }
   if$
 }
 
@@ -1087,7 +1087,9 @@ FUNCTION {article}
   if$
   pages empty$
     { format.pid output }
-    { format.journal.pages }
+    { format.journal.pages
+      format.pid output
+    }
   if$
   format.note output
   fin.entry

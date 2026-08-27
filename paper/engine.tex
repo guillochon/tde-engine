@@ -17,8 +17,10 @@
 \newcommand{\mr}[1]{\multirow{2}{*}{#1}}
 \newcommand{\tabspace}{\rule{0pt}{1.0em}}
 
+\hyphenation{Gold-baum Zol-tan-Kel-ley Ramirez-Ruiz Guil-lo-chon}
+
 \defcitealias{Li:2015a}{G. Li et al. 2015}
-\defcitealias{Li:2015b}{S. Li et al. 2015}
+\defcitealias{Li:2015b}{S. Li et al. 2017}
 
 \begin{document}
 
@@ -28,10 +30,11 @@
 
 \title{A Self-Sustaining Black Hole Engine Powered by the Tidal Disruptions of Stars}
 
-\author{James Guillochon\altaffilmark{1} and Abraham Loeb\altaffilmark{2}}
-\altaffiltext{1}{Gentleman astrophysicist}
-\altaffiltext{2}{Harvard-Smithsonian Center for Astrophysics, The Institute for Theory and
+\author{James Guillochon\altaffilmark{1,2} and Abraham Loeb\altaffilmark{1,3}}
+\altaffiltext{1}{Harvard-Smithsonian Center for Astrophysics, The Institute for Theory and
 Computation, 60 Garden Street, Cambridge, MA 02138, USA}
+\altaffiltext{2}{ORCID: \url{https://orcid.org/0000-0002-9809-8215}}
+\altaffiltext{3}{ORCID: \url{https://orcid.org/0000-0003-4330-287X}}
 
 \email{guillochon@gmail.com}
 
@@ -62,9 +65,9 @@ In this paper, we show that the momentum deposited by UDRs can exceed the moment
 When a black hole is in this state, we argue that the host galaxy will exhibit a number of identifiable features that have already or are expected to be revealed in observations of tidal disruption host galaxies:
 \begin{itemize}
 \item Because the state requires the disruption rate to be enhanced above a critical value, a violent relaxation process likely needs to have occurred to ``spark'' the engine state. A supermassive black hole merger is an example of such a process, and if it is responsible for sparking the engine the galaxy should show signs of a recent merger and its associated starburst. Such post-starburst galaxies have already been identified observationally as being strongly tied with tidal disruptions \citep{Arcavi:2014a,French:2016a}, an over-representation by roughly two orders of magnitude relative to their share of the galaxy population that has survived a decade of subsequent survey work \citep{French:2020a,Gezari:2021a,Hammerstein:2023a}.
-\item The black hole will be surrounded by molecular clouds with densities that are much higher than usual, and that dense molecular gas tracers should reveal the presence of these clouds. Post-starburst galaxies routinely show such central concentrations of molecular gas \citep{Alatalo:2014a,French:2018a}.
+\item The black hole will be surrounded by molecular clouds with densities that are much higher than usual, and that dense molecular gas tracers should reveal the presence of these clouds. Post-starburst galaxies routinely show such central concentrations of molecular gas \citep{French:2015a,Smercina:2018a}, with NGC~1266 the best-studied local example \citep{Alatalo:2011a,Alatalo:2014a}.
 \item Both the stellar density and stellar velocity dispersions in the nucleus should be enhanced relative to a galaxy that is not in the engine state. Such an enhancement has been claimed to be detected in one of the nearest k+A galaxies \citep{Stone:2016b}.
-\item The surrounding SNe rate will be suppressed relative to the expected rate given a gas surface density as only the very-densest clouds will collapse to form stars. Suppression of the star formation rate has been observed in the centers of post-starburst galaxies \citep{Alatalo:2015a, French:2018a}.
+\item The surrounding SNe rate will be suppressed relative to the expected rate given a gas surface density as only the very-densest clouds will collapse to form stars. Suppression of the star formation rate has been observed in the centers of post-starburst galaxies \citep{French:2018a}, and in NGC~1266 in particular \citep{Alatalo:2015a}.
 \item Because the black hole will be surrounded by a significant gas reservoir, it will accrete some fraction of this gas and is likely to be a low-luminosity AGN (LLAGN), with the resulting accretion rate being larger than the late-time fallback accretion produced by the disruptions. The host of the TDE ASASSN-14li has pre-flare radio emission consistent with being a LLAGN \citep{Alexander:2016a,Alexander:2020a}.
 \end{itemize}
 
@@ -98,6 +101,10 @@ The surface density of gas in the Milky Way interior to 10~kpc is $\sim 10 M_{\o
 \dot{p}_{\rm CCSNe} &= 2 \times 10^{32} \left(\frac{\Gamma_{\rm CCSNe} (r < {\rm kpc})}{10^{-4}}\right)~{\rm g~cm~s}^{-1}\label{eq:psne}.
 \end{align}
 In a starbursting galaxy, the star formation rate can be a hundred times greater per unit area than the Milky Way, meaning that a momentum injection rate of $\dot{p}_{\rm CCSNe} \simeq 10^{34}$~{\rm g~cm~s}$^{-1}$ is possible in the most extreme cases.
+
+Our use of momentum rather than energy as the means of feedback deserves an explanation, as it applies equally to the UDRs of Section \ref{subsec:tde}. A remnant expanding into gas of the densities we derive below, $10^{4}$--$10^{5}~{\rm cm}^{-3}$, has a post-shock cooling time of only a few years, four to five orders of magnitude shorter than the crossing time of the clouds it is driving. Roughly $90\%$ of the initial energy is radiated away before the remnant merges with its surroundings \citep{Cioffi:1988a,Blondin:1998a,Thornton:1998a}, and the remnant passes quickly from the adiabatic phase into a momentum-conserving snowplow. What survives is the terminal momentum, which is insensitive both to the ambient density, scaling only as $n^{-0.17}$, and to the clumpiness of the medium, which alters it by less than $60\%$ \citep{Kim:2015a,Martizzi:2015a,Walch:2015a}. Because the hot phase cools within years and occupies a fraction $\sim 10^{-6}$ of the gas volume at any instant, thermal pressure cannot contribute appreciably to the support of the clouds, and momentum deposition is the relevant channel. We note that this conclusion is specific to isolated remnants expanding into dense gas; clustered explosions in a pre-excavated cavity retain considerably more of their energy and can remain over-pressured for much longer \citep{Gentry:2017a}.
+
+This argument is what licenses the energy balance we impose in Section \ref{subsec:conditions}, where the injected UDR energy is radiated by the cold, CO-emitting phase rather than retained as bubble pressure. The two statements are consistent rather than double-counted: the short cooling time is precisely what transfers the energy out of the hot shocked gas and into the $10$~K molecular phase, where it must then be radiated away for the cloud to remain in a steady state.
 
 \subsection{Active Galactic Nuclei}\label{subsec:agn}
 
@@ -280,7 +287,11 @@ where $\Lambda_{\rm c} \simeq 3$ collects the dimensionless integral over the cu
 
 For the disruption rate we take the full-loss-cone (pinhole) rate, appropriate when the angular momentum a star receives per orbit exceeds the width of the loss cone. Massive perturbers keep the loss cone full in exactly this way \citep{Perets:2007a}, and the belt clouds derived above are massive perturbers of the required magnitude. Following \citet{Syer:1999a} and \citet{Stone:2016a},
 \begin{equation}
-\Gamma_{\rm TDE} = 4 \times 10^{-5} \mhsix^{4/3}\left(\frac{n_{0}}{10^{5}~{\rm pc}^{-3}}\right)\left(\frac{100~{\rm km~s}^{-1}}{\sigma_{\rm h}}\right)^{3}~{\rm yr}^{-1},\label{eq:gtde}
+\begin{split}
+\Gamma_{\rm TDE} = 4 \times 10^{-5} \mhsix^{4/3} & \left(\frac{n_{0}}{10^{5}~{\rm pc}^{-3}}\right) \\
+& \times \left(\frac{100~{\rm km~s}^{-1}}{\sigma_{\rm h}}\right)^{3}~{\rm yr}^{-1},
+\end{split}
+\label{eq:gtde}
 \end{equation}
 which is equivalent to $\Gamma_{\rm TDE} \propto n_{0} r_{\rm t} G M_{\rm h}/\sigma_{\rm h}$ up to the numerical prefactor.
 
@@ -461,7 +472,7 @@ Over an engine lifetime the black hole gains of order its own mass in stellar ma
 
 The clouds are turbulently supported at ${\cal M} \simeq 40$ and sit at densities of $10^{4}$--$10^{5}~{\rm cm}^{-3}$ while forming few stars. This combination is unusual but not unprecedented: it is the condition of the Milky Way's Central Molecular Zone, where the star formation rate falls an order of magnitude below what the dense gas mass would predict \citep{Longmore:2013a,Kruijssen:2014a,Barnes:2017a}. In the CMZ this suppression is generally attributed to the elevated turbulent pressure raising the density threshold for collapse; in an engine, the same suppression is maintained by UDR driving, and it is self-sustaining rather than incidental.
 
-The observational corollary is that engines should appear as nuclei rich in dense-gas tracers (HCN, HCO$^{+}$) but weak in star formation indicators, alongside a low level of AGN activity, $L_{\rm AGN}/L_{\rm Edd} \sim 0.06 f_{\rm B,-3}$. Such centrally concentrated, weakly star-forming molecular reservoirs are routinely observed in post-starburst galaxies \citep{Alatalo:2011a,Alatalo:2014a,Alatalo:2015a,French:2018a}, which are the same hosts in which TDEs are over-represented.
+The observational corollary is that engines should appear as nuclei rich in dense-gas tracers (HCN, HCO$^{+}$) but weak in star formation indicators, alongside a low level of AGN activity, $L_{\rm AGN}/L_{\rm Edd} \sim 0.06 f_{\rm B,-3}$. Such centrally concentrated, weakly star-forming molecular reservoirs are routinely observed in post-starburst galaxies \citep{French:2015a,French:2018a,Smercina:2018a}, which are the same hosts in which TDEs are over-represented, and are seen in detail in NGC~1266 \citep{Alatalo:2011a,Alatalo:2014a,Alatalo:2015a}.
 
 \subsection{Caveats}\label{subsec:caveats}
 
@@ -473,15 +484,31 @@ We have also treated the clouds as a single population of identical objects at a
 
 \subsection{Enhancement of k+A galaxies in clusters}\label{subsec:ka}
 
-k+A galaxies show central molecular regions with a large amount of mass, $\sim 10^{9}~\msun$, molecular outflows, and suppressed star formation \citep{Alatalo:2011a,Alatalo:2014a}. The disk mass required by the engine, $\sim 7 \times 10^{5} \mhsix^{1.14}~\msun$, is a small fraction of these reservoirs, so a k+A nucleus has ample fuel to sustain an engine for the $\sim 10^{8}$~yr derived above. The engine hypothesis therefore does not require these galaxies to be unusual in their total gas content, only in the configuration of the innermost few parsecs of it.
+k+A galaxies show central molecular regions with a large amount of mass, $\sim 10^{9}~\msun$, molecular outflows, and suppressed star formation \citep{French:2015a,Smercina:2018a}, a combination exhibited in detail by NGC~1266 \citep{Alatalo:2011a,Alatalo:2014a,Alatalo:2015a}. The disk mass required by the engine, $\sim 7 \times 10^{5} \mhsix^{1.14}~\msun$, is a small fraction of these reservoirs, so a k+A nucleus has ample fuel to sustain an engine for the $\sim 10^{8}$~yr derived above. The engine hypothesis therefore does not require these galaxies to be unusual in their total gas content, only in the configuration of the innermost few parsecs of it.
 
 Three properties of the k+A population make them natural hosts. First, their morphologies are disturbed: a large fraction show tidal features and other signatures of a recent major merger \citep{Zabludoff:1996a}, which supplies both the violent relaxation needed to spark the engine (Section~\ref{sec:spark}) and the inflow of gas needed to build the disk. Second, and less obviously, they retain that gas. Post-starburst galaxies were long assumed to have exhausted or expelled their molecular reservoirs, but sensitive CO and dust measurements find substantial cold gas surviving for hundreds of Myr after the burst \citep{French:2015a,Smercina:2018a}. Third, that surviving gas is not forming stars at the rate its density would imply \citep{French:2018a}, which is the same decoupling of dense gas from star formation that the engine requires and that the CMZ exhibits.
 
 Taken together, these are the conditions the model needs, and they are observed to persist on precisely the timescale over which we find an engine can run. We would add one caution: the causal arrow is not established by any of this. A merger that sparks an engine also produces a k+A spectrum and a central gas reservoir independently, so the association of TDEs with k+A hosts is equally consistent with the engine being a consequence of the same event rather than a cause of the elevated rate. Distinguishing the two requires the nuclear observations described above, not host-galaxy demographics.
 
+\subsection{Connection to Little Red Dots (LRDs)?}\label{subsec:lrd}
+
+The compact, red, high-redshift sources uncovered by {\it JWST} and known as little red dots have been proposed to be powered by tidal disruptions. \citet{Bellovary:2025a} suggested that LRDs are recurring TDEs in clusters that have undergone runaway collapse to an intermediate-mass black hole, a system that would be compact, UV-emitting, and display the broad H$\alpha$ emission that characterizes the population. \citet{Perger:2025a} subsequently showed that radio stacking limits on LRDs are compatible with radio-quiet TDEs as the underlying process. Independently, \citet{Pacucci:2025a} find that a purely stellar reading of the LRD photometry implies central densities of $10^{4}$--$10^{5}~\msun~{\rm pc}^{-3}$, and in the most extreme cases up to $\sim 10^{9}~\msun~{\rm pc}^{-3}$, and conclude that the dense residual stellar core left behind by seed formation can sustain high rates of tidal disruption. The abundance, compactness and redshift distribution of the population are separately reproduced if LRDs occupy the low-spin tail of the halo distribution \citep{Pacucci:2025b}.
+
+What this literature does not supply is a mechanism that sets the disruption rate. \citet{Bellovary:2025a} notes that $\Gamma_{\rm TDE} \sim 10^{-4}$~yr$^{-1}$ suffices to reconcile the observed LRD number density with the predicted abundance of runaway-collapse clusters, since with flare durations of order a year that rate is also the duty cycle. This is a population-level requirement rather than a prediction for any individual system, and the cluster-dynamics models they compare in fact deliver considerably more. Both the runaway tidal-encounter calculation of \citet{Stone:2017a} and the $N$-body models of \citet{Rizzuto:2023a} give per-system rates that climb steeply with black hole mass, reaching $10^{-2}$--$10^{-1}$~yr$^{-1}$ by $M_{\rm h} = 10^{6}~\msun$ for stellar densities of $10^{8}~\msun~{\rm pc}^{-3}$. What is missing is not a high enough rate but a reason for the nucleus to sit at the density that produces one. Our equilibrium is precisely such a mechanism, and the densities it produces are of the same order as those inferred for LRD cores: the cusp normalization of Section~\ref{subsec:engine-state} corresponds to $\sim 10^{9}~\msun~{\rm pc}^{-3}$ in the spherical case and $\sim 10^{7}~\msun~{\rm pc}^{-3}$ in the disk-fed case. We caution that this is not a like-for-like comparison, since the LRD densities are inferred within effective radii of $\sim 100$~pc while ours are cusp normalizations at $a_{\rm h} \sim 0.05$--$0.3$~pc.
+
+Our equilibrium rates, $3.3 \times 10^{-3}$--$3.7 \times 10^{-2}$~yr$^{-1}$, fall squarely inside the range those models reach at the upper end of the mass distribution, and the stellar density we require, $10^{7}$--$10^{9}~\msun~{\rm pc}^{-3}$, brackets the $10^{8}~\msun~{\rm pc}^{-3}$ their fiducial curves assume. Because a higher rate per system implies a higher duty cycle, fewer hosts are needed to reproduce the observed abundance, which would ease the tension \citet{Bellovary:2025a} identifies between the required host density and the $\Lambda$CDM halo mass function, and weaken the case for the top-heavy initial mass function invoked to resolve it.
+
+We would nonetheless caution against reading too much into the numerical agreement, because the two calculations hold different quantities fixed. The cluster models adopt a velocity dispersion and stellar density as inputs and obtain a rate that rises with black hole mass; in our equilibrium these are outputs, determined self-consistently, and the resulting rate falls weakly with mass as $M_{\rm h}^{-1/6}$. The velocity dispersions also differ, ours being several times larger than the $40~{\rm km~s}^{-1}$ of their fiducial models, with the higher stellar density compensating. Ours moreover describes a momentum-driven equilibrium around a $10^{5}$--$10^{8}~\msun$ black hole already embedded in molecular gas, while the LRD systems are $\sim 10^{4}~\msun$ seeds newly assembled by stellar collisions. That two such different routes arrive at comparable rates is encouraging, but it may be coincidence.
+
+The role of stellar collisions is in fact inverted between the two pictures: in the LRD seed-formation scenario, collisions are the engine; runaway mergers in a dense cluster assemble a very massive star that contracts and collapses to a black hole of $\sim 10^{4}~\msun$ \citep{Pacucci:2025a}. In our model, collisions are the brake, scattering stars out of the loss cone and capping the disruption rate through the condition of Section~\ref{sec:collcond}. Both processes become important at comparable stellar densities, and Equation~(\ref{eq:cond3}) is in effect the boundary between the two regimes. A nucleus that has just finished building a seed by runaway collision should sit close to that boundary, which offers a natural way to join the two descriptions: the collisional phase that makes the black hole gives way to a collisionally regulated phase that feeds it.
+
+Two obstacles stand in the way of taking the connection further. First is metallicity: our equilibrium relies on CO line cooling and on dust to hold the clouds near $10$~K; in the metal-poor environments where runaway collapse is expected to operate at $z \sim 5$, neither is available, the clouds cannot reach such low temperatures, and the second of our conditions would have to be rederived with molecular hydrogen or atomic cooling in place of Equation~(\ref{eq:lmc}). The engine as formulated here is a metal-enriched, low-redshift mechanism. The second is obscuration: we predict $A_{\rm V} \simeq 50$ through the gas, which must be reprocessed into the infrared, whereas LRDs show a marked deficit of both hot and cold dust emission \citep{Setton:2025a,Chen:2025a}. This is only reconcilable if the clouds are arranged in a disk rather than a spherical shell, so that the covering factor is $f_{\Omega} \sim 0.2$ and the reprocessed luminosity is suppressed by the same factor, with most sightlines unobscured. The spherical geometry of Section~\ref{subsec:engine-state} is straightforwardly ruled out by the LRD dust constraints; only the disk-fed configuration of Section~\ref{subsec:disk} survives them. We note in passing that if the reddening of LRDs arises from a dense gas envelope rather than from dust, as in the ``black hole star'' interpretation of \citet{Naidu:2025a}, then a gas-enshrouded nucleus of the kind our engine constructs is qualitatively the right picture regardless.
+
 \bigskip
 \acknowledgements
+\begin{sloppypar}
 We thank Fabio~Antonini, Blakesley~Burkhart, Xian~Chen, Charlie~Conroy, Robert~Fisher, Nathan~Goldbaum, Luke~Zoltan-Kelley, Morgan~MacLeod, Peter~Maksym, Ilya~Mandel, Michael~McCourt, Smadar~Naoz, Ryan~O'Leary, Enrico~Ramirez-Ruiz, Lorenzo~Sironi, and Nicholas~Stone for thoughtful discussions. This work was supported in part by Einstein grant PF3-140108 (J.~G.). J.~G. would like to thank the Aspen Center for Physics (NSF Grant \#1066293) for their generous hospitality. First paper draft was originally completed circa 2018; paper was updated in 2026 with the assistance of the Anthropic AI models Claude Fable and Opus 5. All references and AI edits were hand-checked by the authors.\footnote{The manuscript source, the bibliography, and the scripts that solve the equilibrium system and generate the figures are available at \url{https://github.com/guillochon/tde-engine}.}
+\end{sloppypar}
 
 \bibliographystyle{apj}
 \bibliography{engineNotes}
