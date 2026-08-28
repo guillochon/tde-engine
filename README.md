@@ -10,8 +10,7 @@ star cluster, and the compressed cluster disrupts stars faster — closing a fee
 loop is not runaway: once the cluster is dense enough, star-star collisions begin removing
 stars from the loss cone as fast as they can be fed into it, which caps the rate.
 
-The first draft dates from around 2018. The steady-state system was never solved at the time;
-it is solved here in closed form.
+The first draft dates from around 2018.
 
 ## Repository layout
 
@@ -24,8 +23,6 @@ scripts/   equilibrium solvers and figure generation
 |---|---|
 | `paper/engine.tex` | Manuscript (AASTeX, `preprint2`) |
 | `paper/engineNotes.bib` | Bibliography |
-| `CHANGES.md` | What changed relative to the original draft, and why |
-| `REFERENCES_AUDIT.md` | Provenance and verification status of every bibliography entry |
 
 ## Building the paper
 
@@ -80,6 +77,25 @@ remnant hits per cloud crossing time, and the Jeans ratio of the clouds.
 
 with m₆ = M<sub>h</sub>/10⁶ M<sub>⊙</sub>. More generally σ ∝ f<sup>1/2</sup> and
 Γ<sub>eq</sub> ∝ f<sup>3/2</sup>, where f is the flattening of the stellar cusp.
+
+A fourth condition (C4) checks the positive branch of the loop: whether clouds of the
+derived properties can actually compress the cusp to the σ the collision cap allows.
+Requiring the clouds to dominate the cusp's relaxation gives σ_comp ≈ 2.8 × 10² m₆<sup>0.40</sup> km/s,
+and the engine sits at the smaller of σ_comp and σ_coll. This is an inequality, not a
+closure condition. The spherical solution fails it below M_h = 4.7 × 10⁶ M⊙ and is
+compression-limited there (Γ = 1.2 × 10⁻² m₆<sup>0.54</sup> yr⁻¹); the disk-fed solution passes it
+for all M_h > 1.6 × 10⁵ M⊙ and is unchanged. Both solvers print the criterion.
+
+**Loss-cone rate (`scripts/losscone.py`).** The monomial rate formerly used for
+Gamma_TDE is degenerate with the collision rate in sigma, so no equilibrium exists
+in the pure pinhole limit. The rate is now the bridged Cohn-Kulsrud flux, with the
+orbit-averaged diffusion coefficient mu_bar taken from Stone & Metzger (2016, App. A).
+Validation: both limits recovered to 4 digits; Milky Way gives 6e-5 /yr with
+q(1 pc) = 1.5. `scripts/solve_equilibrium*.py` retain the superseded formula and are
+annotated as such.
+
+**Flattening window (`scripts/scan_flattening.py`).** f_* is fixed by three
+requirements to 0.18 - 0.26; see Section 4.5.
 
 The equilibrium rate lands tens to hundreds of times above the canonical 10⁻⁴ yr⁻¹, and the
 clouds that emerge are close analogues of those in the Milky Way's Central Molecular Zone:

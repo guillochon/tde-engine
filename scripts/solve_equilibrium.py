@@ -1,3 +1,10 @@
+"""NOTE: this script implements the SUPERSEDED monomial loss-cone rate
+(the old Eq. 25, Gamma ~ m6^{4/3} n0 sigma_h^{-3}). That form is degenerate
+with the collision rate in sigma and has been replaced in the manuscript by
+the bridged Cohn-Kulsrud flux; see scripts/losscone.py. Retained only to
+reproduce the belt (C1, C2, virial) solve and the C4 criterion, which are
+unchanged. Equilibrium rates printed here are NOT the published values.
+"""
 import sympy as sp
 
 # constants (cgs)
@@ -151,3 +158,34 @@ powlaw2('Jeans/cloud mass i.e. sigcl^2 R/(G M)', sigcl**2*rc/(G*Mmc))
 powlaw2('L_Edd [erg/s]', LEdd)
 powlaw2('Mdot_amb (fB=1e-3) [Msun/yr]', mdot, msun/yr, 'Msun/yr')
 powlaw2('sig_eq/sig_Msigma(200*(m6/1e2.6)^0.23?)', sig_eq/km)
+
+# ---- Step 3: can the clouds actually deliver this compression? (condition C4) ----
+# C1-C3 fix sigma from the collision cap alone; nothing in them checks that the
+# clouds are capable of compressing the cusp to that sigma in the first place.
+# Impose instead that the clouds dominate the relaxation of the cusp,
+#     t_relax,MC = t_relax,*,
+# and re-solve the belt (virial, C1, C2, C4) for sigma.  This is the largest
+# sigma the clouds can sustain.  The engine sits at the SMALLER of the two:
+# if sigma_comp > sigma_coll the cap binds and the solution above stands;
+# if sigma_comp < sigma_coll the clouds are the bottleneck and the rate is lower.
+print('--- C4: compression criterion ---')
+trMC_s = sp.Float('0.34',30)*sig**3/(G**2*Mmc*rhoMC*10)
+A4 = sp.zeros(4,4); B4 = sp.zeros(4,1)
+lsy = sp.Symbol('ls4')
+vars4 = {m6: lm, sig: lsy, Mach: lM, rc: lr, rb: lb}
+for i, ratio in enumerate([Mach**2*cs**2/(sp.Rational(4,5)*sp.pi*G*rhoMC*rc**2),
+                           Gfull*fUDR*tc,
+                           Gfull*E/(Lam0*nMC**2*Nmc*Vmc),
+                           trMC_s/trelaxst]):
+    Lx = loglin(ratio, vars4)
+    for j, v in enumerate([lsy, lM, lr, lb]):
+        A4[i,j] = sp.diff(Lx, v)
+    B4[i] = -(Lx.subs({lsy:0, lM:0, lr:0, lb:0, lm:0}) + sp.diff(Lx, lm)*lm)
+s4 = sp.expand(A4.solve(B4)[0])
+sc_pref = sp.exp(s4.subs(lm,0)); sc_slope = sp.N(sp.diff(s4, lm), 4)
+print(f"sigma_comp = {sp.N(sc_pref/km,4)} km/s * m6^{sc_slope}   (clouds' capability)")
+print(f"sigma_coll = {sp.N(sig_pref/km,4)} km/s * m6^{sig_slope}   (collision cap)")
+mcrit = sp.N((sp.N(sig_pref/sc_pref))**(1/(sc_slope - sp.N(sig_slope))), 4)
+print(f"crossover at m6 = {mcrit}")
+print(f"  m6 > {mcrit}: collision-capped, solution above stands")
+print(f"  m6 < {mcrit}: compression-limited, sigma and Gamma fall below the values above")

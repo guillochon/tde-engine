@@ -2,359 +2,553 @@
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Akiba} \& {Madigan}(2021)}]{Akiba:2021a}
-{Akiba}, T., \& {Madigan}, A.-M. 2021, \apjl, 921, L12
+{Akiba}, T., \& {Madigan}, A.-M. 2021, \apjl, 921, L12,
+  \href{https://doi.org/10.3847/2041-8213/ac30d9}{doi:10.3847/2041-8213/ac30d9}
 
 \bibitem[{{Alatalo} {et~al.}(2011){Alatalo}, {Blitz}, {Young},
   {et~al.}}]{Alatalo:2011a}
-{Alatalo}, K., {Blitz}, L., {Young}, L.~M., {et~al.} 2011, \apj, 735, 88
+{Alatalo}, K., {Blitz}, L., {Young}, L.~M., {et~al.} 2011, \apj, 735, 88,
+  \href{https://doi.org/10.1088/0004-637X/735/2/88}{doi:10.1088/0004-637X/735/2/88}
 
 \bibitem[{{Alatalo} {et~al.}(2015){Alatalo}, {Lacy}, {Lanz},
   {et~al.}}]{Alatalo:2015a}
-{Alatalo}, K., {Lacy}, M., {Lanz}, L., {et~al.} 2015, \apj, 798, 31
+{Alatalo}, K., {Lacy}, M., {Lanz}, L., {et~al.} 2015, \apj, 798, 31,
+  \href{https://doi.org/10.1088/0004-637X/798/1/31}{doi:10.1088/0004-637X/798/1/31}
 
 \bibitem[{{Alatalo} {et~al.}(2014){Alatalo}, {Nyland}, {Graves},
   {et~al.}}]{Alatalo:2014a}
-{Alatalo}, K., {Nyland}, K., {Graves}, G., {et~al.} 2014, \apj, 780, 186
+{Alatalo}, K., {Nyland}, K., {Graves}, G., {et~al.} 2014, \apj, 780, 186,
+  \href{https://doi.org/10.1088/0004-637X/780/2/186}{doi:10.1088/0004-637X/780/2/186}
 
 \bibitem[{{Alexander} {et~al.}(2016){Alexander}, {Berger}, {Guillochon},
   {Zauderer}, \& {Williams}}]{Alexander:2016a}
 {Alexander}, K.~D., {Berger}, E., {Guillochon}, J., {Zauderer}, B.~A., \&
-  {Williams}, P.~K.~G. 2016, \apjl, 819, L25
+  {Williams}, P.~K.~G. 2016, \apjl, 819, L25,
+  \href{https://doi.org/10.3847/2041-8205/819/2/L25}{doi:10.3847/2041-8205/819/2/L25}
 
 \bibitem[{{Alexander} {et~al.}(2020){Alexander}, {van Velzen}, {Horesh}, \&
   {Zauderer}}]{Alexander:2020a}
 {Alexander}, K.~D., {van Velzen}, S., {Horesh}, A., \& {Zauderer}, B.~A. 2020,
-  \ssr, 216, 81
+  \ssr, 216, 81,
+  \href{https://doi.org/10.1007/s11214-020-00702-w}{doi:10.1007/s11214-020-00702-w}
 
 \bibitem[{{Antonini} \& {Merritt}(2012)}]{Antonini:2012a}
-{Antonini}, F., \& {Merritt}, D. 2012, \apj, 745, 83
+{Antonini}, F., \& {Merritt}, D. 2012, \apj, 745, 83,
+  \href{https://doi.org/10.1088/0004-637X/745/1/83}{doi:10.1088/0004-637X/745/1/83}
 
 \bibitem[{{Arcavi} {et~al.}(2014){Arcavi}, {Gal-Yam}, {Sullivan},
   {et~al.}}]{Arcavi:2014a}
-{Arcavi}, I., {Gal-Yam}, A., {Sullivan}, M., {et~al.} 2014, \apj, 793, 38
+{Arcavi}, I., {Gal-Yam}, A., {Sullivan}, M., {et~al.} 2014, \apj, 793, 38,
+  \href{https://doi.org/10.1088/0004-637X/793/1/38}{doi:10.1088/0004-637X/793/1/38}
 
 \bibitem[{{Barnes} {et~al.}(2017){Barnes}, {Longmore}, {Battersby}, {Bally},
   {Kruijssen}, {Henshaw}, \& {Walker}}]{Barnes:2017a}
 {Barnes}, A.~T., {Longmore}, S.~N., {Battersby}, C., {et~al.} 2017, \mnras,
-  469, 2263
+  469, 2263,
+  \href{https://doi.org/10.1093/mnras/stx941}{doi:10.1093/mnras/stx941}
+
+\bibitem[{{Bellovary}(2025)}]{Bellovary:2025a}
+{Bellovary}, J. 2025, \apjl, 984, L55,
+  \href{https://doi.org/10.3847/2041-8213/adce6c}{doi:10.3847/2041-8213/adce6c}
 
 \bibitem[{{Blondin} {et~al.}(1998){Blondin}, {Wright}, {Borkowski}, \&
   {Reynolds}}]{Blondin:1998a}
 {Blondin}, J.~M., {Wright}, E.~B., {Borkowski}, K.~J., \& {Reynolds}, S.~P.
-  1998, \apj, 500, 342
+  1998, \apj, 500, 342,
+  \href{https://doi.org/10.1086/305708}{doi:10.1086/305708}
 
 \bibitem[{Bloom {et~al.}(2011)Bloom, Giannios, Metzger, {et~al.}}]{Bloom:2011a}
-Bloom, J.~S., Giannios, D., Metzger, B.~D., {et~al.} 2011, Science, 333, 203
+Bloom, J.~S., Giannios, D., Metzger, B.~D., {et~al.} 2011, Science, 333, 203,
+  \href{https://doi.org/10.1126/science.1207150}{doi:10.1126/science.1207150}
 
 \bibitem[{{Cenko} {et~al.}(2012){Cenko}, {Krimm}, {Horesh},
   {et~al.}}]{Cenko:2012b}
-{Cenko}, S.~B., {Krimm}, H.~A., {Horesh}, A., {et~al.} 2012, \apj, 753, 77
+{Cenko}, S.~B., {Krimm}, H.~A., {Horesh}, A., {et~al.} 2012, \apj, 753, 77,
+  \href{https://doi.org/10.1088/0004-637X/753/1/77}{doi:10.1088/0004-637X/753/1/77}
+
+\bibitem[{{Chen} {et~al.}(2025){Chen}, {Li}, {Inayoshi}, \& {Ho}}]{Chen:2025a}
+{Chen}, K., {Li}, Z., {Inayoshi}, K., \& {Ho}, L.~C. 2025, \apjl, 994, L42,
+  \href{https://doi.org/10.3847/2041-8213/ae1955}{doi:10.3847/2041-8213/ae1955}
 
 \bibitem[{{Chen} {et~al.}(2016{\natexlab{a}}){Chen}, {Amaro-Seoane}, \&
   {Cuadra}}]{Chen:2016a}
 {Chen}, X., {Amaro-Seoane}, P., \& {Cuadra}, J. 2016{\natexlab{a}}, \apj, 819,
-  138
+  138,
+  \href{https://doi.org/10.3847/0004-637X/819/2/138}{doi:10.3847/0004-637X/819/2/138}
 
 \bibitem[{{Chen} {et~al.}(2016{\natexlab{b}}){Chen}, {G{\'o}mez-Vargas}, \&
   {Guillochon}}]{Chen:2016b}
 {Chen}, X., {G{\'o}mez-Vargas}, G.~A., \& {Guillochon}, J. 2016{\natexlab{b}},
-  \mnras, 458, 3314
+  \mnras, 458, 3314,
+  \href{https://doi.org/10.1093/mnras/stw437}{doi:10.1093/mnras/stw437}
 
 \bibitem[{Chen {et~al.}(2009)Chen, Madau, Sesana, \& Liu}]{Chen:2009a}
-Chen, X., Madau, P., Sesana, A., \& Liu, F.~K. 2009, \apjl, 697, L149
+Chen, X., Madau, P., Sesana, A., \& Liu, F.~K. 2009, \apjl, 697, L149,
+  \href{https://doi.org/10.1088/0004-637X/697/2/L149}{doi:10.1088/0004-637X/697/2/L149}
 
 \bibitem[{Chen {et~al.}(2011)Chen, Sesana, Madau, \& Liu}]{Chen:2011a}
-Chen, X., Sesana, A., Madau, P., \& Liu, F.~K. 2011, \apj, 729, 13
+Chen, X., Sesana, A., Madau, P., \& Liu, F.~K. 2011, \apj, 729, 13,
+  \href{https://doi.org/10.1088/0004-637X/729/1/13}{doi:10.1088/0004-637X/729/1/13}
+
+\bibitem[{{Christopher} {et~al.}(2005){Christopher}, {Scoville}, {Stolovy}, \&
+  {Yun}}]{Christopher:2005a}
+{Christopher}, M.~H., {Scoville}, N.~Z., {Stolovy}, S.~R., \& {Yun}, M.~S.
+  2005, \apj, 622, 346,
+  \href{https://doi.org/10.1086/427911}{doi:10.1086/427911}
+
+\bibitem[{{Cioffi} {et~al.}(1988){Cioffi}, {McKee}, \&
+  {Bertschinger}}]{Cioffi:1988a}
+{Cioffi}, D.~F., {McKee}, C.~F., \& {Bertschinger}, E. 1988, \apj, 334, 252,
+  \href{https://doi.org/10.1086/166834}{doi:10.1086/166834}
+
+\bibitem[{{Cohn} \& {Kulsrud}(1978)}]{Cohn:1978a}
+{Cohn}, H., \& {Kulsrud}, R.~M. 1978, \apj, 226, 1087,
+  \href{https://doi.org/10.1086/156685}{doi:10.1086/156685}
 
 \bibitem[{{Combes} {et~al.}(2019){Combes}, {Garc{\'{\i}}a-Burillo}, {Audibert},
   {et~al.}}]{Combes:2019a}
 {Combes}, F., {Garc{\'{\i}}a-Burillo}, S., {Audibert}, A., {et~al.} 2019, \aap,
-  623, A79
+  623, A79,
+  \href{https://doi.org/10.1051/0004-6361/201834560}{doi:10.1051/0004-6361/201834560}
 
 \bibitem[{{Fabian}(2012)}]{Fabian:2012a}
-{Fabian}, A.~C. 2012, \araa, 50, 455
+{Fabian}, A.~C. 2012, \araa, 50, 455,
+  \href{https://doi.org/10.1146/annurev-astro-081811-125521}{doi:10.1146/annurev-astro-081811-125521}
 
 \bibitem[{{Freitag} \& {Benz}(2005)}]{Freitag:2005a}
-{Freitag}, M., \& {Benz}, W. 2005, \mnras, 358, 1133
+{Freitag}, M., \& {Benz}, W. 2005, \mnras, 358, 1133,
+  \href{https://doi.org/10.1111/j.1365-2966.2005.08770.x}{doi:10.1111/j.1365-2966.2005.08770.x}
 
 \bibitem[{{French} {et~al.}(2016){French}, {Arcavi}, \&
   {Zabludoff}}]{French:2016a}
-{French}, K.~D., {Arcavi}, I., \& {Zabludoff}, A. 2016, \apjl, 818, L21
+{French}, K.~D., {Arcavi}, I., \& {Zabludoff}, A. 2016, \apjl, 818, L21,
+  \href{https://doi.org/10.3847/2041-8205/818/1/L21}{doi:10.3847/2041-8205/818/1/L21}
 
 \bibitem[{{French} {et~al.}(2020){French}, {Wevers}, {Law-Smith}, {Graur}, \&
   {Zabludoff}}]{French:2020a}
 {French}, K.~D., {Wevers}, T., {Law-Smith}, J., {Graur}, O., \& {Zabludoff},
-  A.~I. 2020, \ssr, 216, 32
+  A.~I. 2020, \ssr, 216, 32,
+  \href{https://doi.org/10.1007/s11214-020-00657-y}{doi:10.1007/s11214-020-00657-y}
 
 \bibitem[{{French} {et~al.}(2015){French}, {Yang}, {Zabludoff},
   {et~al.}}]{French:2015a}
-{French}, K.~D., {Yang}, Y., {Zabludoff}, A., {et~al.} 2015, \apj, 801, 1
+{French}, K.~D., {Yang}, Y., {Zabludoff}, A., {et~al.} 2015, \apj, 801, 1,
+  \href{https://doi.org/10.1088/0004-637X/801/1/1}{doi:10.1088/0004-637X/801/1/1}
 
 \bibitem[{{French} {et~al.}(2018){French}, {Yang}, {Zabludoff}, \&
   {Tremonti}}]{French:2018a}
 {French}, K.~D., {Yang}, Y., {Zabludoff}, A.~I., \& {Tremonti}, C.~A. 2018,
-  \apj, 861, 123
+  \apj, 861, 123,
+  \href{https://doi.org/10.3847/1538-4357/aac8de}{doi:10.3847/1538-4357/aac8de}
 
 \bibitem[{{Garc{\'{\i}}a-Burillo} {et~al.}(2021){Garc{\'{\i}}a-Burillo},
   {Alonso-Herrero}, {Ramos Almeida}, {et~al.}}]{GarciaBurillo:2021a}
 {Garc{\'{\i}}a-Burillo}, S., {Alonso-Herrero}, A., {Ramos Almeida}, C.,
-  {et~al.} 2021, \aap, 652, A98
+  {et~al.} 2021, \aap, 652, A98,
+  \href{https://doi.org/10.1051/0004-6361/202141075}{doi:10.1051/0004-6361/202141075}
 
 \bibitem[{{Garc{\'{\i}}a-Burillo} {et~al.}(2016){Garc{\'{\i}}a-Burillo},
   {Combes}, {Ramos Almeida}, {et~al.}}]{GarciaBurillo:2016a}
 {Garc{\'{\i}}a-Burillo}, S., {Combes}, F., {Ramos Almeida}, C., {et~al.} 2016,
-  \apjl, 823, L12
+  \apjl, 823, L12,
+  \href{https://doi.org/10.3847/2041-8205/823/1/L12}{doi:10.3847/2041-8205/823/1/L12}
+
+\bibitem[{{Gentry} {et~al.}(2017){Gentry}, {Krumholz}, {Dekel}, \&
+  {Madau}}]{Gentry:2017a}
+{Gentry}, E.~S., {Krumholz}, M.~R., {Dekel}, A., \& {Madau}, P. 2017, \mnras,
+  465, 2471,
+  \href{https://doi.org/10.1093/mnras/stw2746}{doi:10.1093/mnras/stw2746}
 
 \bibitem[{{Gezari}(2021)}]{Gezari:2021a}
-{Gezari}, S. 2021, \araa, 59, 21
+{Gezari}, S. 2021, \araa, 59, 21,
+  \href{https://doi.org/10.1146/annurev-astro-111720-030029}{doi:10.1146/annurev-astro-111720-030029}
 
 \bibitem[{{Goldsmith}(2001)}]{Goldsmith:2001a}
-{Goldsmith}, P.~F. 2001, \apj, 557, 736
+{Goldsmith}, P.~F. 2001, \apj, 557, 736,
+  \href{https://doi.org/10.1086/322255}{doi:10.1086/322255}
 
 \bibitem[{{Goldsmith} \& {Langer}(1978)}]{Goldsmith:1978a}
-{Goldsmith}, P.~F., \& {Langer}, W.~D. 1978, \apj, 222, 881
+{Goldsmith}, P.~F., \& {Langer}, W.~D. 1978, \apj, 222, 881,
+  \href{https://doi.org/10.1086/156206}{doi:10.1086/156206}
 
 \bibitem[{{Guillochon} {et~al.}(2016){Guillochon}, {McCourt}, {Chen},
   {Johnson}, \& {Berger}}]{Guillochon:2016b}
 {Guillochon}, J., {McCourt}, M., {Chen}, X., {Johnson}, M.~D., \& {Berger}, E.
-  2016, \apj, 822, 48
+  2016, \apj, 822, 48,
+  \href{https://doi.org/10.3847/0004-637X/822/1/48}{doi:10.3847/0004-637X/822/1/48}
 
 \bibitem[{{Guillochon} \& {Ramirez-Ruiz}(2013)}]{Guillochon:2013a}
-{Guillochon}, J., \& {Ramirez-Ruiz}, E. 2013, \apj, 767, 25
+{Guillochon}, J., \& {Ramirez-Ruiz}, E. 2013, \apj, 767, 25,
+  \href{https://doi.org/10.1088/0004-637X/767/1/25}{doi:10.1088/0004-637X/767/1/25}
 
 \bibitem[{{Guillochon} \& {Ramirez-Ruiz}(2015)}]{Guillochon:2015b}
----. 2015, \apj, 809, 166
+---. 2015, \apj, 809, 166,
+  \href{https://doi.org/10.1088/0004-637X/809/2/166}{doi:10.1088/0004-637X/809/2/166}
 
 \bibitem[{{Hammerstein} {et~al.}(2023){Hammerstein}, {van Velzen}, {Gezari},
   {et~al.}}]{Hammerstein:2023a}
-{Hammerstein}, E., {van Velzen}, S., {Gezari}, S., {et~al.} 2023, \apj, 942, 9
+{Hammerstein}, E., {van Velzen}, S., {Gezari}, S., {et~al.} 2023, \apj, 942, 9,
+  \href{https://doi.org/10.3847/1538-4357/aca283}{doi:10.3847/1538-4357/aca283}
 
 \bibitem[{{Heinz}(2014)}]{Heinz:2014a}
-{Heinz}, S. 2014, \ssr, 183, 405
+{Heinz}, S. 2014, \ssr, 183, 405,
+  \href{https://doi.org/10.1007/s11214-013-0016-4}{doi:10.1007/s11214-013-0016-4}
 
 \bibitem[{{Imanishi} {et~al.}(2018){Imanishi}, {Nakanishi}, {Izumi}, \&
   {Wada}}]{Imanishi:2018a}
 {Imanishi}, M., {Nakanishi}, K., {Izumi}, T., \& {Wada}, K. 2018, \apjl, 853,
-  L25
+  L25,
+  \href{https://doi.org/10.3847/2041-8213/aaa8df}{doi:10.3847/2041-8213/aaa8df}
 
 \bibitem[{{Impellizzeri} {et~al.}(2019){Impellizzeri}, {Gallimore}, {Baum},
   {et~al.}}]{Impellizzeri:2019a}
 {Impellizzeri}, C.~M.~V., {Gallimore}, J.~F., {Baum}, S.~A., {et~al.} 2019,
-  \apjl, 884, L28
+  \apjl, 884, L28,
+  \href{https://doi.org/10.3847/2041-8213/ab3c64}{doi:10.3847/2041-8213/ab3c64}
 
 \bibitem[{{Jiang} {et~al.}(2016){Jiang}, {Guillochon}, \& {Loeb}}]{Jiang:2016b}
-{Jiang}, Y.-F., {Guillochon}, J., \& {Loeb}, A. 2016, \apj, 830, 125
+{Jiang}, Y.-F., {Guillochon}, J., \& {Loeb}, A. 2016, \apj, 830, 125,
+  \href{https://doi.org/10.3847/0004-637X/830/2/125}{doi:10.3847/0004-637X/830/2/125}
 
 \bibitem[{{Jiang} {et~al.}(2014){Jiang}, {Stone}, \& {Davis}}]{Jiang:2014a}
-{Jiang}, Y.-F., {Stone}, J.~M., \& {Davis}, S.~W. 2014, \apj, 796, 106
+{Jiang}, Y.-F., {Stone}, J.~M., \& {Davis}, S.~W. 2014, \apj, 796, 106,
+  \href{https://doi.org/10.1088/0004-637X/796/2/106}{doi:10.1088/0004-637X/796/2/106}
 
 \bibitem[{{Kalberla} \& {Kerp}(2009)}]{Kalberla:2009a}
-{Kalberla}, P.~M.~W., \& {Kerp}, J. 2009, \araa, 47, 27
+{Kalberla}, P.~M.~W., \& {Kerp}, J. 2009, \araa, 47, 27,
+  \href{https://doi.org/10.1146/annurev-astro-082708-101823}{doi:10.1146/annurev-astro-082708-101823}
 
 \bibitem[{Kennicutt(1998)}]{Kennicutt:1998a}
-Kennicutt, R.~C. 1998, \araa, 36, 189
+Kennicutt, R.~C. 1998, \araa, 36, 189,
+  \href{https://doi.org/10.1146/annurev.astro.36.1.189}{doi:10.1146/annurev.astro.36.1.189}
 
 \bibitem[{Khokhlov \& Melia(1996)}]{Khokhlov:1996a}
-Khokhlov, A., \& Melia, F. 1996, \apjl, 457, L61
+Khokhlov, A., \& Melia, F. 1996, \apjl, 457, L61,
+  \href{https://doi.org/10.1086/309895}{doi:10.1086/309895}
 
 \bibitem[{{Kim} \& {Ostriker}(2015)}]{Kim:2015a}
-{Kim}, C.-G., \& {Ostriker}, E.~C. 2015, \apj, 802, 99
+{Kim}, C.-G., \& {Ostriker}, E.~C. 2015, \apj, 802, 99,
+  \href{https://doi.org/10.1088/0004-637X/802/2/99}{doi:10.1088/0004-637X/802/2/99}
 
 \bibitem[{{King} \& {Pounds}(2015)}]{King:2015a}
-{King}, A., \& {Pounds}, K. 2015, \araa, 53, 115
+{King}, A., \& {Pounds}, K. 2015, \araa, 53, 115,
+  \href{https://doi.org/10.1146/annurev-astro-082214-122316}{doi:10.1146/annurev-astro-082214-122316}
 
 \bibitem[{{Kochanek}(2016)}]{Kochanek:2016a}
-{Kochanek}, C.~S. 2016, \mnras, 461, 371
+{Kochanek}, C.~S. 2016, \mnras, 461, 371,
+  \href{https://doi.org/10.1093/mnras/stw1290}{doi:10.1093/mnras/stw1290}
 
 \bibitem[{Kroupa(2001)}]{Kroupa:2001a}
-Kroupa, P. 2001, \mnras, 322, 231
+Kroupa, P. 2001, \mnras, 322, 231,
+  \href{https://doi.org/10.1046/j.1365-8711.2001.04022.x}{doi:10.1046/j.1365-8711.2001.04022.x}
 
 \bibitem[{{Kruijssen} {et~al.}(2014){Kruijssen}, {Longmore}, {Elmegreen},
   {et~al.}}]{Kruijssen:2014a}
 {Kruijssen}, J.~M.~D., {Longmore}, S.~N., {Elmegreen}, B.~G., {et~al.} 2014,
-  \mnras, 440, 3370
+  \mnras, 440, 3370,
+  \href{https://doi.org/10.1093/mnras/stu494}{doi:10.1093/mnras/stu494}
 
 \bibitem[{{Krumholz}(2015)}]{Krumholz:2015a}
 {Krumholz}, M.~R. 2015, ArXiv e-prints, 1511.03457
 
 \bibitem[{{Kuo} {et~al.}(2014){Kuo}, {Asada}, {Rao}, {et~al.}}]{Kuo:2014a}
-{Kuo}, C.~Y., {Asada}, K., {Rao}, R., {et~al.} 2014, \apjl, 783, L33
+{Kuo}, C.~Y., {Asada}, K., {Rao}, R., {et~al.} 2014, \apjl, 783, L33,
+  \href{https://doi.org/10.1088/2041-8205/783/2/L33}{doi:10.1088/2041-8205/783/2/L33}
 
 \bibitem[{{Lai} {et~al.}(1993){Lai}, {Rasio}, \& {Shapiro}}]{Lai:1993a}
-{Lai}, D., {Rasio}, F.~A., \& {Shapiro}, S.~L. 1993, \apj, 412, 593
+{Lai}, D., {Rasio}, F.~A., \& {Shapiro}, S.~L. 1993, \apj, 412, 593,
+  \href{https://doi.org/10.1086/172946}{doi:10.1086/172946}
 
 \bibitem[{{Levin} \& {Beloborodov}(2003)}]{Levin:2003a}
-{Levin}, Y., \& {Beloborodov}, A.~M. 2003, \apjl, 590, L33
+{Levin}, Y., \& {Beloborodov}, A.~M. 2003, \apjl, 590, L33,
+  \href{https://doi.org/10.1086/376675}{doi:10.1086/376675}
 
 \bibitem[{{Lezhnin} \& {Vasiliev}(2016)}]{Lezhnin:2016a}
 {Lezhnin}, K., \& {Vasiliev}, E. 2016, ArXiv e-prints, 1609.00009
 
 \bibitem[{{Li} \& {Draine}(2001)}]{Li:2001a}
-{Li}, A., \& {Draine}, B.~T. 2001, \apj, 554, 778
+{Li}, A., \& {Draine}, B.~T. 2001, \apj, 554, 778,
+  \href{https://doi.org/10.1086/323147}{doi:10.1086/323147}
 
-\bibitem[{{Li} {et~al.}(2015{\natexlab{a}}){Li}, {Naoz}, {Kocsis}, \&
-  {Loeb}}]{Li:2015a}
-{Li}, G., {Naoz}, S., {Kocsis}, B., \& {Loeb}, A. 2015{\natexlab{a}}, \mnras,
-  451, 1341
+\bibitem[{{Li} {et~al.}(2015){Li}, {Naoz}, {Kocsis}, \& {Loeb}}]{Li:2015a}
+{Li}, G., {Naoz}, S., {Kocsis}, B., \& {Loeb}, A. 2015, \mnras, 451, 1341,
+  \href{https://doi.org/10.1093/mnras/stv1031}{doi:10.1093/mnras/stv1031}
 
-\bibitem[{{Li} {et~al.}(2015{\natexlab{b}}){Li}, {Liu}, {Berczik}, \&
-  {Spurzem}}]{Li:2015b}
-{Li}, S., {Liu}, F.~K., {Berczik}, P., \& {Spurzem}, R. 2015{\natexlab{b}},
-  ArXiv e-prints, 1509.00158
+\bibitem[{{Li} {et~al.}(2017){Li}, {Liu}, {Berczik}, \& {Spurzem}}]{Li:2015b}
+{Li}, S., {Liu}, F.~K., {Berczik}, P., \& {Spurzem}, R. 2017, \apj, 834, 195,
+  \href{https://doi.org/10.3847/1538-4357/834/2/195}{doi:10.3847/1538-4357/834/2/195}
 
 \bibitem[{Lightman \& Shapiro(1977)}]{Lightman:1977a}
-Lightman, A.~P., \& Shapiro, S.~L. 1977, \apj, 211, 244
+Lightman, A.~P., \& Shapiro, S.~L. 1977, \apj, 211, 244,
+  \href{https://doi.org/10.1086/154925}{doi:10.1086/154925}
 
 \bibitem[{{Longmore} {et~al.}(2013){Longmore}, {Bally}, {Testi},
   {et~al.}}]{Longmore:2013a}
-{Longmore}, S.~N., {Bally}, J., {Testi}, L., {et~al.} 2013, \mnras, 429, 987
+{Longmore}, S.~N., {Bally}, J., {Testi}, L., {et~al.} 2013, \mnras, 429, 987,
+  \href{https://doi.org/10.1093/mnras/sts376}{doi:10.1093/mnras/sts376}
 
 \bibitem[{{Lynden-Bell} \& {Wood}(1968)}]{Lynden-Bell:1968a}
-{Lynden-Bell}, D., \& {Wood}, R. 1968, \mnras, 138, 495
+{Lynden-Bell}, D., \& {Wood}, R. 1968, \mnras, 138, 495,
+  \href{https://doi.org/10.1093/mnras/138.4.495}{doi:10.1093/mnras/138.4.495}
 
 \bibitem[{{MacLeod} {et~al.}(2012){MacLeod}, {Guillochon}, \&
   {Ramirez-Ruiz}}]{MacLeod:2012a}
-{MacLeod}, M., {Guillochon}, J., \& {Ramirez-Ruiz}, E. 2012, \apj, 757, 134
+{MacLeod}, M., {Guillochon}, J., \& {Ramirez-Ruiz}, E. 2012, \apj, 757, 134,
+  \href{https://doi.org/10.1088/0004-637X/757/2/134}{doi:10.1088/0004-637X/757/2/134}
 
 \bibitem[{{Madigan} {et~al.}(2018){Madigan}, {Halle}, {Moody}, {McCourt},
   {Nixon}, \& {Wernke}}]{Madigan:2018a}
-{Madigan}, A.-M., {Halle}, A., {Moody}, M., {et~al.} 2018, \apj, 853, 141
+{Madigan}, A.-M., {Halle}, A., {Moody}, M., {et~al.} 2018, \apj, 853, 141,
+  \href{https://doi.org/10.3847/1538-4357/aaa714}{doi:10.3847/1538-4357/aaa714}
 
 \bibitem[{Magorrian \& Tremaine(1999)}]{Magorrian:1999a}
-Magorrian, J., \& Tremaine, S. 1999, \mnras, 309, 447
+Magorrian, J., \& Tremaine, S. 1999, \mnras, 309, 447,
+  \href{https://doi.org/10.1046/j.1365-8711.1999.02853.x}{doi:10.1046/j.1365-8711.1999.02853.x}
 
 \bibitem[{{Martini} {et~al.}(2013){Martini}, {Miller}, {Brodwin},
   {et~al.}}]{Martini:2013a}
-{Martini}, P., {Miller}, E.~D., {Brodwin}, M., {et~al.} 2013, \apj, 768, 1
+{Martini}, P., {Miller}, E.~D., {Brodwin}, M., {et~al.} 2013, \apj, 768, 1,
+  \href{https://doi.org/10.1088/0004-637X/768/1/1}{doi:10.1088/0004-637X/768/1/1}
+
+\bibitem[{{Martizzi} {et~al.}(2015){Martizzi}, {Faucher-Gigu{\`e}re}, \&
+  {Quataert}}]{Martizzi:2015a}
+{Martizzi}, D., {Faucher-Gigu{\`e}re}, C.-A., \& {Quataert}, E. 2015, \mnras,
+  450, 504,
+  \href{https://doi.org/10.1093/mnras/stv562}{doi:10.1093/mnras/stv562}
 
 \bibitem[{{Masterson} {et~al.}(2024){Masterson}, {De}, {Panagiotou},
   {et~al.}}]{Masterson:2024a}
-{Masterson}, M., {De}, K., {Panagiotou}, C., {et~al.} 2024, \apj, 961, 211
+{Masterson}, M., {De}, K., {Panagiotou}, C., {et~al.} 2024, \apj, 961, 211,
+  \href{https://doi.org/10.3847/1538-4357/ad18bb}{doi:10.3847/1538-4357/ad18bb}
+
+\bibitem[{{Melchor} {et~al.}(2024){Melchor}, {Mockler}, {Naoz}, {Rose}, \&
+  {Ramirez-Ruiz}}]{Melchor:2024a}
+{Melchor}, D., {Mockler}, B., {Naoz}, S., {Rose}, S.~C., \& {Ramirez-Ruiz}, E.
+  2024, \apj, 960, 39,
+  \href{https://doi.org/10.3847/1538-4357/acfee0}{doi:10.3847/1538-4357/acfee0}
+
+\bibitem[{{Melchor} {et~al.}(2025){Melchor}, {Naoz}, {Gezari}, \&
+  {Mockler}}]{Melchor:2025a}
+{Melchor}, D., {Naoz}, S., {Gezari}, S., \& {Mockler}, B. 2025, arXiv e-prints,
+  arXiv:2507.08082
 
 \bibitem[{Merritt(2013)}]{Merritt:2013a}
 Merritt, D. 2013, Dynamics and Evolution of Galactic Nuclei (Princeton
-  University Press)
+  University Press),
+  \href{https://doi.org/10.1515/9781400846122}{doi:10.1515/9781400846122}
 
 \bibitem[{{Merritt} \& {Poon}(2004)}]{Merritt:2004a}
-{Merritt}, D., \& {Poon}, M.~Y. 2004, \apj, 606, 788
+{Merritt}, D., \& {Poon}, M.~Y. 2004, \apj, 606, 788,
+  \href{https://doi.org/10.1086/382497}{doi:10.1086/382497}
 
 \bibitem[{{Metzger} \& {Stone}(2016)}]{Metzger:2015a}
-{Metzger}, B.~D., \& {Stone}, N.~C. 2016, \mnras, 461, 948
+{Metzger}, B.~D., \& {Stone}, N.~C. 2016, \mnras, 461, 948,
+  \href{https://doi.org/10.1093/mnras/stw1394}{doi:10.1093/mnras/stw1394}
+
+\bibitem[{{Montero-Casta{\~n}o} {et~al.}(2009){Montero-Casta{\~n}o},
+  {Herrnstein}, \& {Ho}}]{MonteroCastano:2009a}
+{Montero-Casta{\~n}o}, M., {Herrnstein}, R.~M., \& {Ho}, P.~T.~P. 2009, \apj,
+  695, 1477,
+  \href{https://doi.org/10.1088/0004-637X/695/2/1477}{doi:10.1088/0004-637X/695/2/1477}
+
+\bibitem[{{Naidu} {et~al.}(2026){Naidu}, {Matthee}, {Katz},
+  {et~al.}}]{Naidu:2025a}
+{Naidu}, R.~P., {Matthee}, J., {Katz}, H., {et~al.} 2026, \nat,
+  \href{https://doi.org/10.1038/s41586-026-10846-4}{doi:10.1038/s41586-026-10846-4}
 
 \bibitem[{{Nenkova} {et~al.}(2008){Nenkova}, {Sirocky}, {Nikutta},
   {Ivezi{\'c}}, \& {Elitzur}}]{Nenkova:2008b}
 {Nenkova}, M., {Sirocky}, M.~M., {Nikutta}, R., {Ivezi{\'c}}, {\v Z}., \&
-  {Elitzur}, M. 2008, \apj, 685, 160
+  {Elitzur}, M. 2008, \apj, 685, 160,
+  \href{https://doi.org/10.1086/590483}{doi:10.1086/590483}
 
 \bibitem[{{Netzer}(2006)}]{Netzer:2006a}
-{Netzer}, H. 2006, Lecture Notes in Physics, Berlin Springer Verlag, 693, 1
+{Netzer}, H. 2006, Lecture Notes in Physics, Berlin Springer Verlag, 693, 1,
+  \href{https://doi.org/10.1007/3-540-34621-X\_1}{doi:10.1007/3-540-34621-X\_1}
 
 \bibitem[{{Netzer}(2015)}]{Netzer:2015a}
----. 2015, \araa, 53, 365
+---. 2015, \araa, 53, 365,
+  \href{https://doi.org/10.1146/annurev-astro-082214-122302}{doi:10.1146/annurev-astro-082214-122302}
 
 \bibitem[{{Neufeld} {et~al.}(1995){Neufeld}, {Lepp}, \&
   {Melnick}}]{Neufeld:1995a}
-{Neufeld}, D.~A., {Lepp}, S., \& {Melnick}, G.~J. 1995, \apjs, 100, 132
+{Neufeld}, D.~A., {Lepp}, S., \& {Melnick}, G.~J. 1995, \apjs, 100, 132,
+  \href{https://doi.org/10.1086/192211}{doi:10.1086/192211}
+
+\bibitem[{{Neumayer} {et~al.}(2020){Neumayer}, {Seth}, \&
+  {B{\"o}ker}}]{Neumayer:2020a}
+{Neumayer}, N., {Seth}, A., \& {B{\"o}ker}, T. 2020, \aapr, 28, 4,
+  \href{https://doi.org/10.1007/s00159-020-00125-0}{doi:10.1007/s00159-020-00125-0}
 
 \bibitem[{{Ostriker} {et~al.}(2010){Ostriker}, {Choi}, {Ciotti}, {Novak}, \&
   {Proga}}]{Ostriker:2010a}
 {Ostriker}, J.~P., {Choi}, E., {Ciotti}, L., {Novak}, G.~S., \& {Proga}, D.
-  2010, \apj, 722, 642
+  2010, \apj, 722, 642,
+  \href{https://doi.org/10.1088/0004-637X/722/1/642}{doi:10.1088/0004-637X/722/1/642}
+
+\bibitem[{{Pacucci} {et~al.}(2025){Pacucci}, {Hernquist}, \&
+  {Fujii}}]{Pacucci:2025a}
+{Pacucci}, F., {Hernquist}, L., \& {Fujii}, M. 2025, \apj, 994, 40,
+  \href{https://doi.org/10.3847/1538-4357/ae1619}{doi:10.3847/1538-4357/ae1619}
+
+\bibitem[{{Pacucci} \& {Loeb}(2025)}]{Pacucci:2025b}
+{Pacucci}, F., \& {Loeb}, A. 2025, \apjl, 989, L19,
+  \href{https://doi.org/10.3847/2041-8213/ade871}{doi:10.3847/2041-8213/ade871}
 
 \bibitem[{{Paumard} {et~al.}(2006){Paumard}, {Genzel}, {Martins},
   {et~al.}}]{Paumard:2006a}
-{Paumard}, T., {Genzel}, R., {Martins}, F., {et~al.} 2006, \apj, 643, 1011
+{Paumard}, T., {Genzel}, R., {Martins}, F., {et~al.} 2006, \apj, 643, 1011,
+  \href{https://doi.org/10.1086/503273}{doi:10.1086/503273}
 
 \bibitem[{Perets {et~al.}(2007)Perets, Hopman, \& Alexander}]{Perets:2007a}
-Perets, H.~B., Hopman, C., \& Alexander, T. 2007, \apj, 656, 709
+Perets, H.~B., Hopman, C., \& Alexander, T. 2007, \apj, 656, 709,
+  \href{https://doi.org/10.1086/510377}{doi:10.1086/510377}
+
+\bibitem[{{Perger} {et~al.}(2025){Perger}, {Fogasy}, \& {Frey}}]{Perger:2025a}
+{Perger}, K., {Fogasy}, J., \& {Frey}, S. 2025, Universe, 11, 294,
+  \href{https://doi.org/10.3390/universe11090294}{doi:10.3390/universe11090294}
 
 \bibitem[{{Quataert} \& {Gruzinov}(2000)}]{Quataert:2000a}
-{Quataert}, E., \& {Gruzinov}, A. 2000, \apj, 545, 842
+{Quataert}, E., \& {Gruzinov}, A. 2000, \apj, 545, 842,
+  \href{https://doi.org/10.1086/317845}{doi:10.1086/317845}
 
 \bibitem[{{Ramos Almeida} \& {Ricci}(2017)}]{RamosAlmeida:2017a}
-{Ramos Almeida}, C., \& {Ricci}, C. 2017, Nature Astronomy, 1, 679
+{Ramos Almeida}, C., \& {Ricci}, C. 2017, Nature Astronomy, 1, 679,
+  \href{https://doi.org/10.1038/s41550-017-0232-z}{doi:10.1038/s41550-017-0232-z}
 
 \bibitem[{Rees(1988)}]{Rees:1988a}
-Rees, M.~J. 1988, \nat, 333, 523
+Rees, M.~J. 1988, \nat, 333, 523,
+  \href{https://doi.org/10.1038/333523a0}{doi:10.1038/333523a0}
+
+\bibitem[{{Rizzuto} {et~al.}(2023){Rizzuto}, {Naab}, {Rantala},
+  {et~al.}}]{Rizzuto:2023a}
+{Rizzuto}, F.~P., {Naab}, T., {Rantala}, A., {et~al.} 2023, \mnras, 521, 2930,
+  \href{https://doi.org/10.1093/mnras/stad734}{doi:10.1093/mnras/stad734}
 
 \bibitem[{{Romero-Ca{\~n}izales} {et~al.}(2016){Romero-Ca{\~n}izales},
   {Prieto}, {Chen}, {et~al.}}]{Romero-Canizales:2016a}
 {Romero-Ca{\~n}izales}, C., {Prieto}, J.~L., {Chen}, X., {et~al.} 2016, \apjl,
-  832, L10
+  832, L10,
+  \href{https://doi.org/10.3847/2041-8205/832/1/L10}{doi:10.3847/2041-8205/832/1/L10}
 
 \bibitem[{{Salpeter}(1964)}]{Salpeter:1964a}
-{Salpeter}, E.~E. 1964, \apj, 140, 796
+{Salpeter}, E.~E. 1964, \apj, 140, 796,
+  \href{https://doi.org/10.1086/147973}{doi:10.1086/147973}
 
 \bibitem[{{Schawinski} {et~al.}(2015){Schawinski}, {Koss}, {Berney}, \&
   {Sartori}}]{Schawinski:2015a}
 {Schawinski}, K., {Koss}, M., {Berney}, S., \& {Sartori}, L.~F. 2015, \mnras,
-  451, 2517
+  451, 2517,
+  \href{https://doi.org/10.1093/mnras/stv1136}{doi:10.1093/mnras/stv1136}
 
 \bibitem[{Sedov(1946)}]{Sedov:1946a}
 Sedov, L.~I. 1946, Journal of Applied Mathematics and Mechanics, 10, 241
 
+\bibitem[{{Setton} {et~al.}(2025){Setton}, {Greene}, {de Graaff},
+  {et~al.}}]{Setton:2025a}
+{Setton}, D.~J., {Greene}, J.~E., {de Graaff}, A., {et~al.} 2025, \apjl, 991,
+  L10,
+  \href{https://doi.org/10.3847/2041-8213/ade78b}{doi:10.3847/2041-8213/ade78b}
+
+\bibitem[{{Shepherd} {et~al.}(2026){Shepherd}, {French}, {Stone}, {Earl},
+  {Melchor}, {Smith}, {Somalwar}, {Teboul}, \& {Verrico}}]{Shepherd:2026a}
+{Shepherd}, M., {French}, K.~D., {Stone}, N.~C., {et~al.} 2026, \apj, 1005, 63,
+  arXiv:2604.04831
+
 \bibitem[{{Smercina} {et~al.}(2018){Smercina}, {Smith}, {French},
   {et~al.}}]{Smercina:2018a}
 {Smercina}, A., {Smith}, J.~D.~T., {French}, K.~D., {et~al.} 2018, \apj, 855,
-  51
+  51,
+  \href{https://doi.org/10.3847/1538-4357/aaafcd}{doi:10.3847/1538-4357/aaafcd}
 
 \bibitem[{{Spitzer} \& {Schwarzschild}(1951)}]{Spitzer:1951a}
-{Spitzer}, Jr., L., \& {Schwarzschild}, M. 1951, \apj, 114, 385
+{Spitzer}, Jr., L., \& {Schwarzschild}, M. 1951, \apj, 114, 385,
+  \href{https://doi.org/10.1086/145478}{doi:10.1086/145478}
+
+\bibitem[{{Stone} {et~al.}(2017){Stone}, {K{\"u}pper}, \&
+  {Ostriker}}]{Stone:2017a}
+{Stone}, N.~C., {K{\"u}pper}, A.~H.~W., \& {Ostriker}, J.~P. 2017, \mnras, 467,
+  4180, \href{https://doi.org/10.1093/mnras/stx097}{doi:10.1093/mnras/stx097}
 
 \bibitem[{{Stone} \& {Metzger}(2016)}]{Stone:2016a}
-{Stone}, N.~C., \& {Metzger}, B.~D. 2016, \mnras, 455, 859
+{Stone}, N.~C., \& {Metzger}, B.~D. 2016, \mnras, 455, 859,
+  \href{https://doi.org/10.1093/mnras/stv2281}{doi:10.1093/mnras/stv2281}
 
 \bibitem[{{Stone} \& {van Velzen}(2016)}]{Stone:2016b}
-{Stone}, N.~C., \& {van Velzen}, S. 2016, \apjl, 825, L14
+{Stone}, N.~C., \& {van Velzen}, S. 2016, \apjl, 825, L14,
+  \href{https://doi.org/10.3847/2041-8205/825/1/L14}{doi:10.3847/2041-8205/825/1/L14}
 
 \bibitem[{{Stone} {et~al.}(2020){Stone}, {Vasiliev}, {Kesden},
   {et~al.}}]{Stone:2020a}
-{Stone}, N.~C., {Vasiliev}, E., {Kesden}, M., {et~al.} 2020, \ssr, 216, 35
-
-\bibitem[{{Syer} \& {Ulmer}(1999)}]{Syer:1999a}
-{Syer}, D., \& {Ulmer}, A. 1999, \mnras, 306, 35
+{Stone}, N.~C., {Vasiliev}, E., {Kesden}, M., {et~al.} 2020, \ssr, 216, 35,
+  \href{https://doi.org/10.1007/s11214-020-00651-4}{doi:10.1007/s11214-020-00651-4}
 
 \bibitem[{{Taylor}(1950)}]{Taylor:1950a}
 {Taylor}, G. 1950, Proceedings of the Royal Society of London Series A, 201,
-  159
+  159,
+  \href{https://doi.org/10.1098/rspa.1950.0049}{doi:10.1098/rspa.1950.0049}
 
 \bibitem[{Tchekhovskoy {et~al.}(2014)Tchekhovskoy, Metzger, Giannios, \&
   Kelley}]{Tchekhovskoy:2014a}
 Tchekhovskoy, A., Metzger, B.~D., Giannios, D., \& Kelley, L.~Z. 2014, \mnras,
-  437, 2744
+  437, 2744,
+  \href{https://doi.org/10.1093/mnras/stt2085}{doi:10.1093/mnras/stt2085}
+
+\bibitem[{{Thornton} {et~al.}(1998){Thornton}, {Gaudlitz}, {Janka}, \&
+  {Steinmetz}}]{Thornton:1998a}
+{Thornton}, K., {Gaudlitz}, M., {Janka}, H.-T., \& {Steinmetz}, M. 1998, \apj,
+  500, 95, \href{https://doi.org/10.1086/305704}{doi:10.1086/305704}
 
 \bibitem[{{Tout} {et~al.}(1996){Tout}, {Pols}, {Eggleton}, \&
   {Han}}]{Tout:1996a}
 {Tout}, C.~A., {Pols}, O.~R., {Eggleton}, P.~P., \& {Han}, Z. 1996, \mnras,
-  281, 257
+  281, 257,
+  \href{https://doi.org/10.1093/mnras/281.1.257}{doi:10.1093/mnras/281.1.257}
 
 \bibitem[{{Tremaine}(1995)}]{Tremaine:1995a}
-{Tremaine}, S. 1995, \aj, 110, 628
+{Tremaine}, S. 1995, \aj, 110, 628,
+  \href{https://doi.org/10.1086/117548}{doi:10.1086/117548}
 
 \bibitem[{{van Velzen} {et~al.}(2021){van Velzen}, {Gezari}, {Hammerstein},
   {et~al.}}]{vanVelzen:2021a}
-{van Velzen}, S., {Gezari}, S., {Hammerstein}, E., {et~al.} 2021, \apj, 908, 4
+{van Velzen}, S., {Gezari}, S., {Hammerstein}, E., {et~al.} 2021, \apj, 908, 4,
+  \href{https://doi.org/10.3847/1538-4357/abc258}{doi:10.3847/1538-4357/abc258}
+
+\bibitem[{{Vasiliev} \& {Merritt}(2013)}]{Vasiliev:2013a}
+{Vasiliev}, E., \& {Merritt}, D. 2013, \apj, 774, 87,
+  \href{https://doi.org/10.1088/0004-637X/774/1/87}{doi:10.1088/0004-637X/774/1/87}
+
+\bibitem[{{Walch} \& {Naab}(2015)}]{Walch:2015a}
+{Walch}, S., \& {Naab}, T. 2015, \mnras, 451, 2757,
+  \href{https://doi.org/10.1093/mnras/stv1155}{doi:10.1093/mnras/stv1155}
 
 \bibitem[{Wang \& Merritt(2004)}]{Wang:2004a}
-Wang, J., \& Merritt, D. 2004, \apj, 600, 149
+Wang, J., \& Merritt, D. 2004, \apj, 600, 149,
+  \href{https://doi.org/10.1086/379767}{doi:10.1086/379767}
 
 \bibitem[{Wegg \& {Nate Bode}(2011)}]{Wegg:2011a}
-Wegg, C., \& {Nate Bode}, J. 2011, \apjl, 738, L8
+Wegg, C., \& {Nate Bode}, J. 2011, \apjl, 738, L8,
+  \href{https://doi.org/10.1088/2041-8205/738/1/L8}{doi:10.1088/2041-8205/738/1/L8}
 
 \bibitem[{{Wernke} \& {Madigan}(2019)}]{Wernke:2019a}
-{Wernke}, H.~N., \& {Madigan}, A.-M. 2019, \apj, 880, 42
+{Wernke}, H.~N., \& {Madigan}, A.-M. 2019, \apj, 880, 42,
+  \href{https://doi.org/10.3847/1538-4357/ab2711}{doi:10.3847/1538-4357/ab2711}
 
 \bibitem[{{Yao} {et~al.}(2023){Yao}, {Ravi}, {Gezari}, {et~al.}}]{Yao:2023a}
-{Yao}, Y., {Ravi}, V., {Gezari}, S., {et~al.} 2023, \apjl, 955, L6
+{Yao}, Y., {Ravi}, V., {Gezari}, S., {et~al.} 2023, \apjl, 955, L6,
+  \href{https://doi.org/10.3847/2041-8213/acf216}{doi:10.3847/2041-8213/acf216}
 
 \bibitem[{{Yelda} {et~al.}(2014){Yelda}, {Ghez}, {Lu}, {et~al.}}]{Yelda:2014a}
-{Yelda}, S., {Ghez}, A.~M., {Lu}, J.~R., {et~al.} 2014, \apj, 783, 131
+{Yelda}, S., {Ghez}, A.~M., {Lu}, J.~R., {et~al.} 2014, \apj, 783, 131,
+  \href{https://doi.org/10.1088/0004-637X/783/2/131}{doi:10.1088/0004-637X/783/2/131}
 
 \bibitem[{Young {et~al.}(1977)Young, Shields, \& Wheeler}]{Young:1977a}
-Young, P.~J., Shields, G.~A., \& Wheeler, J.~C. 1977, \apj, 212, 367
+Young, P.~J., Shields, G.~A., \& Wheeler, J.~C. 1977, \apj, 212, 367,
+  \href{https://doi.org/10.1086/155056}{doi:10.1086/155056}
 
 \bibitem[{{Zabludoff} {et~al.}(1996){Zabludoff}, {Zaritsky}, {Lin},
   {et~al.}}]{Zabludoff:1996a}
-{Zabludoff}, A.~I., {Zaritsky}, D., {Lin}, H., {et~al.} 1996, \apj, 466, 104
+{Zabludoff}, A.~I., {Zaritsky}, D., {Lin}, H., {et~al.} 1996, \apj, 466, 104,
+  \href{https://doi.org/10.1086/177495}{doi:10.1086/177495}
 
 \end{thebibliography}
