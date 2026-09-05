@@ -44,7 +44,8 @@ pip install sympy matplotlib
 
 python scripts/solve_equilibrium.py        # spherical belt of clouds
 python scripts/solve_equilibrium_disk.py   # flattened disk geometry
-python scripts/make_figures.py             # regenerates the three figures
+python scripts/make_figures.py             # regenerates mom-rates, dominance, domratio
+python scripts/scan_flattening.py          # flattening window + window.pdf
 ```
 
 `solve_equilibrium_disk.py` accepts three optional rational arguments: the disk aspect ratio
@@ -95,7 +96,7 @@ q(1 pc) = 1.5. `scripts/solve_equilibrium*.py` retain the superseded formula and
 annotated as such.
 
 **Flattening window (`scripts/scan_flattening.py`).** f_* is fixed by three
-requirements to 0.18 - 0.26; see Section 4.5.
+requirements to 0.18 - 0.25; writes `paper/window.pdf`. See Section 4.5.
 
 The equilibrium rate lands tens to hundreds of times above the canonical 10⁻⁴ yr⁻¹, and the
 clouds that emerge are close analogues of those in the Milky Way's Central Molecular Zone:

@@ -6,6 +6,20 @@ Figures are named when they change. If an entry does not mention a figure, none 
 
 ---
 
+## 2026-09-05 — Repair `scan_flattening.py` and regenerate `window.pdf`
+
+`scripts/scan_flattening.py` could not be run: it `exec`'d a missing `solve_equilibrium_4x4.py` and loaded `/tmp/ckfit2.npy`. It is now self-contained.
+
+- Inlines the belt (virial, C1, C2) and C4 monomial solve that used to live in the missing file.
+- Fits the Cohn–Kulsrud flux \(\Gamma(\sigma,M_{\rm h})\) on the fly from `losscone.py` instead of a temp array.
+- Writes `paper/window.pdf` (two-panel constraint ratios and \(\sigma_{\rm eq}\), \(\Gamma_{\rm eq}\) vs \(f_{\ast}\)).
+- Window from the live scan: \(H=R_{\rm MC}\) at \(f_{\ast}=0.18\), \(\rho_0=10^{8}\,M_\odot\,{\rm pc}^{-3}\) at \(f_{\ast}=0.25\). Midpoint \(f_{\ast}=0.22\): \(\sigma=241\,{\rm km\,s}^{-1}\), \(\Gamma=1.42\times10^{-2}\,{\rm yr}^{-1}\), \(\dot{p}_{\rm TDE}/\dot{p}_{\rm AGN}=9.41\), \(A_V=49.8\), mass floor \(7.3\times10^{5}\,M_\odot\), matching the manuscript.
+- Extrapolated \(p_{\rm TDE}=p_{\rm AGN}\) is at \(f_{\ast}=0.11\). The manuscript's \(0.14\) was the left edge of the old scan grid, where the ratio is already \(2.0\). Not changed in the tex; the binding lower bound remains \(H=R_{\rm MC}\).
+
+**Figures:** `window.pdf` regenerated. `mom-rates.pdf`, `dominance.pdf`, `domratio.pdf`, `engine-diagram.pdf` unchanged.
+
+---
+
 ## 2026-09-05 — Consistency with the Cohn–Kulsrud equilibrium
 
 Replace leftover monomial-rate coefficients (the superseded \(\Gamma \propto m_6^{4/3} n_0 \sigma_h^{-3}\) solve) with the Cohn–Kulsrud power-law fit already used in the engine-state tables, the flattening window, and `scripts/make_figures.py`. The published \(\Gamma_{\rm eq}\) intercepts are unchanged: they remain the four-decade fit over \(m_6 = 0.03\)–\(300\), not the live integrator at \(10^6 M_\odot\).
