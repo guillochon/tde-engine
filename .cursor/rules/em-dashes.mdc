@@ -1,0 +1,10 @@
+---
+description: Use em-dashes sparingly in manuscript prose
+alwaysApply: true
+---
+
+# Em-dashes
+
+Use em-dashes (`---` in TeX, — in text) sparingly. Prefer a comma, parentheses, a colon, or a second sentence.
+
+Do not use an em-dash pair for an aside that parentheses can carry, or a single em-dash where a colon or period would do.

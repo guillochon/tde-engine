@@ -1,1 +1,6 @@
 .DS_Store
+*.out
+*.log
+*.blg
+*.aux
+*.pyc

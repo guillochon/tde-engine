@@ -1,0 +1,14 @@
+---
+description: Run verify_citations.py after adding or changing citations
+alwaysApply: true
+---
+
+# Verify citations against ADS
+
+Whenever citations are added, removed, retargeted, or their `.bib` entries change, run `python scripts/verify_citations.py` from the repo root before finishing. Do not skip because the keys look familiar.
+
+- Needs `ADS_TOKEN` from `.env` (https://ui.adsabs.harvard.edu/user/settings/token)
+- Defaults: `paper/shs_roman.tex` + `paper/bibliography.bib` → `research/citations_ads.md`
+- Triggers: new `\cite` keys, key swaps, new or edited `.bib` entries, DOI/bibcode/eprint/title/author/year changes
+- After the run, fix anything under UNRESOLVED, title mismatches, or cited-but-absent before compiling
+- `--dry-run` is only for inspecting queries; a citation change is not done until a live run succeeds

@@ -1,0 +1,12 @@
+---
+description: Store downloaded paper TeX in research/ subfolders
+alwaysApply: true
+---
+
+# Downloaded paper sources
+
+Whenever you download a paper for research, keep its `.tex` (and any accompanying `.bbl` / macros needed to read it) in a dedicated subfolder of `research/`. Do not leave sources in the repo root or in `paper/`.
+
+- Name the folder after the paper, lowercase and compact (e.g. `research/gl15/`, `research/tiede24/`, `research/rotac25/`)
+- Prefer the author-year or arXiv identifier already used as the citation key
+- Skip giant ancillary files (full `.bib` dumps, nested PDFs) unless they are needed to verify a claim

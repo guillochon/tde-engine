@@ -1,0 +1,16 @@
+---
+description: Compile the manuscript with the local MiKTeX install
+alwaysApply: true
+---
+
+# Compile with MiKTeX
+
+This machine has MiKTeX installed. Use it whenever the paper needs compiling. Do not skip compilation because `pdflatex` is missing from `PATH`.
+
+- Engines:
+  - `C:\Users\guill\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe`
+  - `C:\Users\guill\AppData\Local\Programs\MiKTeX\miktex\bin\x64\bibtex.exe`
+- Working directory: `paper/`
+- Bibliography: `bibliography.bib` + `aasjournalv7.bst` (AASTeX v7). After bib changes run `bibtex shs_roman`.
+- Command: `pdflatex -interaction=nonstopmode shs_roman.tex` (run twice for cross-references; if the `.bbl` is stale, `pdflatex` → `bibtex` → `pdflatex` ×2)
+- After editing `paper/shs_roman.tex` or regenerating `paper/f1.pdf` / `paper/f2.pdf`, recompile

@@ -1,0 +1,13 @@
+---
+description: Abstract must stay at or under the arXiv 1920-character limit
+alwaysApply: true
+---
+
+# Abstract length (hard requirement)
+
+The manuscript abstract must be **1920 characters or fewer**. This is an arXiv hard limit, not a preference. Do not finish an abstract edit that exceeds it.
+
+- Count the collapsed abstract body (whitespace squeezed to single spaces), **including TeX commands**, from `\begin{abstract}` to `\end{abstract}`
+- The abstract must contain no custom macros (`abstract-macros.mdc`); count the text as written
+- After any abstract change, count and trim before compiling or committing
+- Cut Gaia, asides, and duplicated survey detail first; keep the SHS definition, the two developments, and the Euclid/Roman search yields

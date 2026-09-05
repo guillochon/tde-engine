@@ -1,0 +1,21 @@
+---
+description: Never use custom macros in the manuscript abstract
+alwaysApply: true
+---
+
+# No custom macros in the abstract
+
+arXiv's metadata abstract does not expand `\newcommand` macros. Write the abstract with primitive TeX only so it can be pasted into the submission form.
+
+Forbidden in `\begin{abstract}`…`\end{abstract}`: `\vinf`, `\kms`, `\Msun`, `\rg`, `\citetalias`, and any other `\newcommand` / `\def` from the preamble. Standard TeX (`\textit`, `\approx`, `\simeq`, `\rm`, `\infty`, `^{\ }`) is fine.
+
+```tex
+% BAD
+at $10^{4}$--$10^{5}\kms$, $\vinf\propto(r_{p}/\rg)^{-1/2}$
+
+% GOOD
+at $10^{4}$--$10^{5}\,{\rm km\,s^{-1}}$
+($\approx0.03$--$0.3c$), $v_{\infty}\propto(r_{p}/r_{{\rm g},1})^{-1/2}$
+```
+
+Count the expanded text against the 1920-character limit (`abstract-length.mdc`).
