@@ -273,7 +273,7 @@ def fig_window(rows, f_lo, f_hi):
 
     axR.axvspan(f_lo, f_hi, color=GREEN, alpha=0.45, lw=0, zorder=0)
     axR.plot(fa, sig, 'o-', color=BLUE, ms=5.5, lw=1.6)
-    axR.set_ylim(160, 320)
+    axR.set_ylim(100, 320)
     axR.set_xlim(fa[0] - 0.005, fa[-1] + 0.005)
     axR.set_xlabel(r'$f_{\ast}$', fontsize=13)
     axR.set_ylabel(r'$\sigma_{\rm eq}$ (km s$^{-1}$)', fontsize=12, color=BLUE)
@@ -299,7 +299,9 @@ def fig_window(rows, f_lo, f_hi):
 def main():
     global G_ck
     G_ck = fit_ck_sigma_m6()
-    fs = np.round(np.arange(0.12, 0.341, 0.02), 2)
+    # Start below the p_TDE = p_AGN root (~0.12) so the left-panel blue
+    # curve crosses unity on the plotted range.
+    fs = np.round(np.arange(0.08, 0.341, 0.02), 2)
     rows = scan(fs)
     fa = np.array([r['f'] for r in rows])
     ratio = np.array([r['ratio'] for r in rows])
@@ -308,11 +310,11 @@ def main():
     f_agn = _crossing(fa, ratio)
     f_geo = _crossing(fa, hr)
     f_rho = _crossing(fa, rho_r)
-    print(f"\n  AGN dominance   p_TDE=p_AGN  at f_* = {f_agn:.2f}")
+    print(f"\n  AGN dominance   p_TDE=p_AGN  at f_* = {f_agn:.3f}")
     print(f"  clouds fit disk H=R_MC       at f_* = {f_geo:.2f}")
     print(f"  rho0 = 1e8 Msun/pc^3         at f_* = {f_rho:.2f}")
     # Binding edges in the paper: H = R_MC and rho_0 = 1e8.
-    # p_TDE = p_AGN is weaker (it holds over the whole plotted grid).
+    # p_TDE = p_AGN (UDR+jets+outflows) is weaker; it fails only below ~0.12.
     f_lo, f_hi = f_geo, f_rho
     print(f"  allowed window               {f_lo:.2f} <= f_* <= {f_hi:.2f}")
     fig_window(rows, f_lo, f_hi)

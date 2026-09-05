@@ -6,6 +6,18 @@ Figures are named when they change. If an entry does not mention a figure, none 
 
 ---
 
+## 2026-09-05 — AGN flattening bound uses the full TDE momentum budget
+
+Equation (`eq:fagn`) quoted \(f_{\ast}\gtrsim 0.14\), the left edge of the old scan grid, where \(\dot{p}_{\rm TDE}/\dot{p}_{\rm AGN}\) is already \(\approx 2\). Extending the grid below that edge, the live crossing with the same UDR+jets+outflows budget as the midpoint \(9.4\) is \(f_{\ast}\simeq 0.12\) (ratio \(0.60\) at \(0.10\), \(1.18\) at \(0.12\)). An earlier extrapolation off the clipped grid had given \(0.11\); at \(f_{\ast}=0.11\) the ratio is still below unity.
+
+- (`eq:fagn`): \(0.14 \to 0.12\). Geometry (\(H=R_{\rm MC}\) at \(0.18\)) remains the binding lower bound.
+- `scan_flattening.py`: grid starts at \(f_{\ast}=0.08\) so the left panel of `window.pdf` shows the blue curve crossing unity. Right-panel \(\sigma\) axis lowered to \(100\,{\rm km\,s}^{-1}\).
+- C4 aside \(0.14\le f_{\ast}\le 1\) (the \(\sigma_{\rm coll}\) fit range) left alone. Allowed window \(0.18\)–\(0.25\), midpoint state, and the other three figure PDFs unchanged.
+
+**Figures:** `window.pdf` regenerated. `mom-rates.pdf`, `dominance.pdf`, `domratio.pdf`, `engine-diagram.pdf` unchanged.
+
+---
+
 ## 2026-09-05 — Repair `scan_flattening.py` and regenerate `window.pdf`
 
 `scripts/scan_flattening.py` could not be run: it `exec`'d a missing `solve_equilibrium_4x4.py` and loaded `/tmp/ckfit2.npy`. It is now self-contained.
